@@ -1,0 +1,10 @@
+/* custumizing the logo and the company name */
+
+.logo{
+    margin:0 5px 8px 0;
+    width: 2em;
+  }
+.logo-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--fw-bold);
+}

@@ -1,0 +1,32 @@
+/* logos used in the form(UserLogo, GroupLogo) */
+.formLogo{
+  height: 3.5em;
+  padding: 1em 1em 1em 0;
+}
+/* custom style for the section  */
+.boxContent{
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* button design */
+.myselforTeam{
+  max-width: 300px;
+  padding: 20px ;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 3px;
+  margin: 0 auto 5px;
+}
+
+.myselforTeam h5{
+  font-weight: var(--fw-bold);
+}
+.myselforTeam p{
+  font-weight: var(--fw-light);
+  color: var(--secondary-color);
+}
+
+.myselforTeam:hover{
+  border-color:var(--primary-color) ;
+}

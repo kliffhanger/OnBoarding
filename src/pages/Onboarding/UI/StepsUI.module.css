@@ -1,0 +1,42 @@
+/* the circles and line basic style */
+.stepCircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    /* margin: 0; */
+    width: 50px;
+}
+
+/* if the circles and lines are filled */
+ .circleFilled{
+    background-color: var(--primary-color);
+    color: white;
+}
+.lineFilled{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/* if the circles and lines are empty */
+.circleEmpty{
+    border: 1px solid var(--tertiary-color);
+    background-color: white;
+    color: black;
+}
+.lineEmpty{
+    background-color:var(--tertiary-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  hr{
+    margin: 0;
+    width: 15px;
+  }
+}
